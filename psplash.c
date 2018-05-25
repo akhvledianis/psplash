@@ -82,7 +82,7 @@ psplash_draw_progress (PSplashFB *fb, int value)
 
   /* 4 pix border */
   x      = ((fb->width  - BAR_IMG_WIDTH)/2) + 4 ;
-  y      = fb->height - (fb->height/6) + 4;
+  y      = fb->height - (fb->height/2) + 4;
   width  = BAR_IMG_WIDTH - 8; 
   height = BAR_IMG_HEIGHT - 8;
 
