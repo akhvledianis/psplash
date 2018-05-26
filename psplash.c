@@ -322,8 +322,8 @@ main (int argc, char** argv)
   /* Draw progress bar border */
   if (!disable_progress_bar) {
 	  psplash_fb_draw_image (fb, 
-				 (fb->width  - BAR_IMG_WIDTH)/4, 
-				 fb->height - (fb->height/2 + 1), 
+				 (fb->width  - BAR_IMG_WIDTH)/2, 
+				 fb->height - (fb->height/3), 
 				 BAR_IMG_WIDTH,
 				 BAR_IMG_HEIGHT,
 				 BAR_IMG_BYTES_PER_PIXEL,
