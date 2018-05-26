@@ -32,7 +32,7 @@ typedef struct PSplashFB
   struct termios save_termios;	        
   int            type;		        
   int            visual;		
-  int            width, height;
+  float          width, height;
   int            bpp;
   int            stride;
   char		*data;
