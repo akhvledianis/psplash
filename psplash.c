@@ -78,11 +78,11 @@ psplash_draw_msg (PSplashFB *fb, const char *msg)
 void
 psplash_draw_progress (PSplashFB *fb, int value)
 {
-  int x, y, width, height, barwidth;
+  float x, y, width, height, barwidth;
 
   /* 4 pix border */
   x      = ((fb->width  - BAR_IMG_WIDTH)/2) + 4 ;
-  y      = fb->height - (fb->height/6) + 4;
+  y      = fb->height - (fb->height/2.5) + 4;
   width  = BAR_IMG_WIDTH - 8; 
   height = BAR_IMG_HEIGHT - 8;
 
